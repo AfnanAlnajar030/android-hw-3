@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#903C4343">
+
+    <TextView
+        android:id="@+id/grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="casual"
+        android:text="Grade Calculator"
+        android:textColor="#000000"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/firstOne"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="Quizes %15"
+        android:inputType="textPersonName"
+        android:layout_alignTop="@+id/grade"
+        android:layout_marginTop="70sp"
+        android:layout_centerHorizontal="true"
+        android:background="#91AEDF" />
+
+    <EditText
+        android:id="@+id/secondOne"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="Homework %25"
+        android:inputType="textPersonName"
+        android:layout_alignTop="@+id/firstOne"
+        android:layout_marginTop="80sp"
+        android:layout_centerHorizontal="true"
+        android:background="#91AEDF" />
+
+    <EditText
+        android:id="@+id/thirdOne"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="Mid terms 30%"
+        android:inputType="textPersonName"
+        android:layout_alignTop="@+id/secondOne"
+        android:layout_marginTop="80sp"
+        android:layout_centerHorizontal="true"
+        android:background="#91AEDF" />
+
+    <EditText
+        android:id="@+id/fourthOne"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="Final 30%"
+        android:inputType="textPersonName"
+        android:layout_alignTop="@+id/thirdOne"
+        android:layout_marginTop="80sp"
+        android:layout_centerHorizontal="true"
+        android:background="#91AEDF" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:text="CALCULATE"
+        android:layout_alignTop="@id/fourthOne"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="#8A2DEB"
+        android:fontFamily="casual"
+        android:textSize="17sp"/>
+
+
+</RelativeLayout>
